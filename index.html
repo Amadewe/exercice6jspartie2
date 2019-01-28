@@ -6,11 +6,14 @@
 </head>
 <body>
   <div class="container">
-    <img src="assets/img/image1.jpg" id="image1" onMouseOver='changeimage(1)'onMouseOut='remettreimage(1)'/>
-    <img src="assets/img/image2.jpg" id="image2" onMouseOver='changeimage(2)'onMouseOut='remettreimage(2)'/>
-    <img src="assets/img/image3.jpg" id="image3" onMouseOver='changeimage(3)'onMouseOut='remettreimage(3)'/>
-    <img src="assets/img/image4.jpg" id="image4" onMouseOver='changeimage(4)'onMouseOut='remettreimage(4)'/>
-    <img src="assets/img/image5.jpg" id="image5" onMouseOver='changeimage(5)'onMouseOut='remettreimage(5)'/>
+    <img src="assets/img/image1.jpg" id="image1" onMouseOver='changeImage(id)'onMouseOut='resetImage(id)'/>
+    <img src="assets/img/image2.jpg" id="image2" onMouseOver='changeImage(id)'onMouseOut='resetImage(id)'/>
+    <img src="assets/img/image3.jpg" id="image3" onMouseOver='changeImage(id)'onMouseOut='resetImage(id)'/>
+    <img src="assets/img/image4.jpg" id="image4" onMouseOver='changeImage(id)'onMouseOut='resetImage(id)'/>
+    <img src="assets/img/image5.jpg" id="image5" onMouseOver='changeImage(id)'onMouseOut='resetImage(id)'/>
+    <!-- L'évènement onmouseover est lié à la position et au déplacement de la souris.
+    Il déclenche une action lorsque le curseur de la souris entre dans l'élément sur lequel est déclaré cet évènement.  -->
+    <!-- L'événement mouseout est déclenché quand la souris est déplacé hors de l'élément -->
   </div>
   <script src="assets/js/script.js"></script>
 </body>
